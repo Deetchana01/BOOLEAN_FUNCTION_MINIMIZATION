@@ -32,10 +32,12 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
-
-Developed by: RegisterNumber:*/
+```
+module exe_2(f_and, f_or, f_not, f_nor, f_nand, f_xor, f_xnor,a,b); input a,b; output
+f_and, f_or, f_not, f_nor, f_nand, f_xor, f_xnor; and(f_and, a,b); or(f_or,a,b); not(f_not,a);
+nand(f_nand, a,b); nor (f_nor, a,b); xor(f_xor,a,b); xnor(f_xnor,a,b); endmodule
+```
+Developed by:DEETCHANA S  RegisterNumber:24004599
 
 
 **RTL realization**
@@ -44,7 +46,11 @@ Developed by: RegisterNumber:*/
 
 **RTL**
 
+![Screenshot 2024-12-30 154516](https://github.com/user-attachments/assets/b46dbb5a-cd2a-434d-82ae-f6da8f42697d)
+
 **Timing Diagram**
+
+![Screenshot 2024-12-30 154543](https://github.com/user-attachments/assets/4160aa7d-481b-4e2b-bb31-b77e63b407bc)
 
 **Result:**
 
